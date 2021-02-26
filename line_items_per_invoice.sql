@@ -1,4 +1,8 @@
-Select COUNT(il.quantity)
-From InvoiceLine il 
-Join Invoice i 
-WHERE i.InvoiceId = 37
+SELECT
+    Count(InvoiceLineId) LineItems,
+    InvoiceId Invoices
+
+FROM
+    InvoiceLine
+    Invoice
+GROUP BY Invoices
