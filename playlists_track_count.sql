@@ -5,4 +5,4 @@ PlaylistTrack,
 Playlist,
 Track
 ON PlaylistTrack.TrackId = Track.TrackId
-Group By Playlist 
+Group By  Playlist.Name
